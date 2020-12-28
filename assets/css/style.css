@@ -4770,8 +4770,10 @@ input:focus {
     .header-bottom .fix-card {
         position: absolute;
         top: 7px;
-        right: 85px;
+	 visibility: hidden;
+	    right: 85px;
     }
+	
 }
 
 
