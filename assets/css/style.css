@@ -5007,7 +5007,21 @@ input:focus {
 .slider-area {
     margin-top: -1px;
 }
+@media (max-width: 767px) {
+    .slider-area , .item-active{
+        margin-left: 5%;
+        max-width: 700px;
+        max-height: 40rem;
+    }
+}
+@media (max-width:780px){
+.item-active , .carousel-caption , .animated {
+    max-width: 700px;
+    max-height: 40rem;
+    background-position: center;
+}
 
+}
 
 /* HEADER CUROSEL  */
 
